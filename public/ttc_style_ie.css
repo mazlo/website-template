@@ -1,0 +1,232 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Sans, Verdana, Geneva;
+	background-image: url(images/bg5.png);
+	background-repeat: repeat-y;
+	background-color: #000000;
+	background-position: center;
+	text-align: center;
+}
+
+div.wrapper {
+	width: 800px; 
+	margin: auto;
+	text-align: left;
+}
+
+#header {
+	height: 160px;
+	width: 800px;
+	margin: 0 0 0 0;
+	padding: 18px 0 0 0;
+}
+
+#header div {
+	float: left;
+	width: auto;
+	height: auto;
+}
+
+h1 {
+	margin-left: 40px;
+	font-size: 32px;
+	font-weight: bold;
+	text-decoration: underline;
+	/*color: #000066;*/
+	color: #227700;
+}
+
+h2 {
+	font-size: 17px;
+	margin-left: 40px;
+	color: #000000;
+}
+
+#content {
+	clear: both;
+	border-top: 1px double #227700;
+	background-image: url(images/tt_rocket_low640x437.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+	width: 796px;
+	margin: 32px 0 0 0;
+	padding: 0 23px 36px 23px;
+}
+
+.navigation {
+	position: relative;
+	top: -21px;
+	left: -35px;
+	width: 750px;
+	height: 35px;
+}
+
+.navigation a {
+	border: 1px solid #227700;
+	background-image: url(images/navElem_bg.jpg);
+	background-repeat: repeat-x;
+	margin: 0 5px 0 0;
+	padding: 4px 10px 4px 10px;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	color: #227700;
+}
+
+.navigation a:visited {
+	text-decoration: none;
+	color: #227700;
+}
+
+.navigation a:hover {
+	text-decoration: underline;
+	color: #000000;
+}
+
+#content span {
+	color: #227700;
+}
+
+#content ul {
+	margin: 18px 0 0 0;
+	font-size: 12px;
+	font-weight: bold;
+	color: #227700;
+}
+
+#content li {
+	margin: 18px 0 0 0;
+	line-height: 18px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #000000;
+}
+
+#content div.imagesColumn {
+	float: left;
+	width: 200px;
+	height: 500px;
+	margin: 12px 0 0 0;
+	padding: 0;
+}
+
+#content div.imagesColumn img {
+	border: 0;
+	margin: 0 0 18px 0;
+	padding: 0;
+}
+
+#content div.contentColumn {
+	float: left;
+	width: 490px;
+	margin-right: 38px;
+	margin-left: 8px;
+	padding: 0;
+}
+
+#content div.contentColumn p {
+	width: auto;
+	line-height: 18px;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica;
+	font-weight: bold;
+	text-align: left;
+}
+
+#content div.contentColumn p.center {
+	width: auto;
+	line-height: 18px;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica;
+	font-weight: bold;
+	text-align: center;
+}
+
+#content div.contentColumn h3 {
+	display: block;
+	border-top: 1px solid #227700;
+	border-bottom: 1px solid #227700;
+	margin: 0;
+	margin-top: 12px;
+	padding: 0;
+	line-height: 18px;
+	font-weight: bold;
+	font-size: 12px;
+	color: #000000;
+}
+
+#content div.contentColumn h4 {
+	display: block;
+	margin: 8px 0 0 0;
+	padding: 0;
+	line-height: 18px;
+	font-weight: bold;
+	font-size: 12px;
+	text-decoration: underline;
+	color: #000000;
+}
+
+#content div.contentColumn a {
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #227700;
+}
+
+#content div.contentColumn a:visited{
+	text-decoration: underline;
+	color: #227700;
+}
+
+#content div.contentColumn a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+
+#content table.click-tt {
+	border:solid 1px; 
+	margin-bottom: 23px;
+	padding: 3px;
+	width: auto;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica;
+	font-weight: bold;
+	text-align: center;
+}
+
+span.emph {
+	text-decoration: underline;
+}
+
+#footer {
+	clear: both;
+	border-top: 1px solid #227700;
+	border-bottom: 1px solid #227700;
+	width: 796px;
+	* width: 800px;
+	margin: 23px 0 23px 0;
+	padding: 8px 0 8px 0;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica;
+	font-weight: bold;
+	vertical-align: center;
+}
+
+#footer a {
+	margin: 0 0 0 20px;
+	color: #227700;
+	text-decoration: underline;
+}
+
+#footer a:visited {
+	color: #227700;
+	text-decoration: underline;
+}
+
+#footer a:hover {
+	color: #000000;
+	text-decoration: none;
+}

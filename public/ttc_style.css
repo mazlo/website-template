@@ -1,0 +1,184 @@
+
+/*
+*	GLOBAL HTML COMPONENTS
+*/
+
+body {
+	background-color: green; 
+	overflow-y: scroll;
+	
+	margin: 0; 
+	padding: 0; 
+	
+	font-size: 16px;
+	line-height: 23px;
+	font-family: sans-serif;
+}
+
+a,
+a:visited {
+	text-decoration: underline;
+	color: #000;
+}
+
+/*
+*	HEADERS
+*/
+
+h1 {
+	color: green;
+	text-decoration: underline;
+}
+
+h4 {
+	border-top: 1px solid green;
+	border-bottom: 1px solid green;
+
+	padding: 3px 0 1px;
+}
+
+h5 {
+	margin: 0;
+	margin-top: 13px;
+	padding: 3px 0 1px;
+	font-size: 16px;	
+}
+
+/*
+*	CONTENT DEPENDENT
+*/
+
+#header {
+	margin-bottom: 23px;
+}
+
+#content > div {
+	overflow: hidden;
+}
+
+#index p {
+	font-weight: bolder;
+	text-align: center;
+}
+
+a.contactDialog {
+	cursor: pointer;
+}
+
+p span,
+li span {
+	color: green;
+}
+
+table.form-table tbody {
+	vertical-align: top;
+}
+
+table.form-table tbody tr td {
+	padding: 4px;
+}
+
+table.click-tt tr td {
+	width: 200px;
+}
+
+input.form-textfield,
+textarea.form-textarea {
+	width: 360px;
+	padding: 3px;
+}
+
+.contentColumn {
+	float: left;
+	width: 650px;
+}
+
+.imageColumn {
+	float: right;
+	width: 200px;
+	margin-top: 13px;
+}
+
+.news {
+	margin-top: 23px;
+}
+
+.news ul li {
+	margin-bottom: 13px;
+}
+
+#footer {
+	border-top: 1px solid green;
+	border-bottom: 1px solid green;
+
+	padding: 2px 0;
+
+	text-align: center;
+}
+
+/*
+*	TABS
+*/
+
+.ui-tabs {
+	position: relative;/* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+
+	padding: 0;
+	min-height: 39px;
+}
+
+.ui-tabs .ui-tabs-panel {
+	display: block;
+	background: #fff;
+	border-width: 0;
+	padding: 1em 1.4em;
+
+	margin: 0;
+	margin-bottom: 23px;
+}
+
+.ui-tabs .ui-tabs-nav {
+	border-bottom: 1px solid green;
+
+	margin: 0;
+	padding: 0;
+
+	list-style-type: none;
+}
+
+.ui-tabs .ui-tabs-nav li {
+	float: left;
+	
+	position: relative;
+	top: 1px;
+	margin: 0;
+	padding: 0;
+	
+	white-space: nowrap;
+	min-width: 60px;
+
+	font-size: 15px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.ui-tabs .ui-tabs-nav li a {
+	float: left;
+	box-shadow: 0px -2px 2px #ccc;
+
+	background-image: url( 'navElem_bg.png' );
+	border: 1px solid green;
+	
+	margin-right: 13px;
+	padding: 4px 13px;
+
+	text-decoration: none;
+	color: green;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+	background: none;
+	border-bottom: 1px solid #fff !important;
+	color: #000;
+}
+
