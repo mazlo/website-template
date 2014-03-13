@@ -48,6 +48,14 @@ h5 {
 *	CONTENT DEPENDENT
 */
 
+.wrapper {
+	background-color: #fff; 
+	box-shadow: 0 0 23px 3px #000; 
+	width: 946px; 
+	margin: auto; 
+	padding: 23px 48px;
+}
+
 #header {
 	margin-bottom: 23px;
 }
